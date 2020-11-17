@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task management</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+   </head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-lg-4"></div>
+            <div class="col-md-4 col-lg-4">
+                <form id="form">
+                    <div class="text-center"><p>Add Task</p></div>
+                    <input type="text" id="task" class="form-control"required>
+                    <input type="button" class="btn" onclick="addTask()" id="submit" value="Submit">
+                </form>
+                <div id="alltasks" class="hide">
+                    <h2>ToDo</h2>
+                    <p >
+                        <ul id="ToDo"></ul>
+                    </p>
+                </div>
+                <div id="completed" class="hide">
+                    <h2>Completed Tasks</h2>
+                    <p >
+                        <ul id="cmplt"></ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

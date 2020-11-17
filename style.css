@@ -1,0 +1,25 @@
+.hide {
+    display: none;
+}
+#form div p {
+    font-size: 30px;
+    font-weight: 600;
+}
+#form input {
+    margin-bottom: 20px;
+}
+.btn-xs {
+    margin: 0px 10px;
+}
+.chkd {
+    margin: 0px 10px;
+}
+#submit.btn{
+    padding: 11px 50px;
+    background-color: aqua;
+    color: black;
+
+}
+.container{
+	background-color: azure;
+}
